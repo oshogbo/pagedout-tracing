@@ -20,13 +20,6 @@ For systems with apt:
 sudo apt install bpfcc-tools linux-headers-$(uname -r)
 ```
 
-For systems with Vagrant:
-```
-vagrant up linux && vagrant ssh linux
-# inside the VM
-cd /vagrant
-```
-
 For other Linux distro please refer [INSTALL.md](https://github.com/iovisor/bcc/blob/master/INSTALL.md).
 
 ## Usage
